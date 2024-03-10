@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main_container">
+        <div id="left_container">
+          <h1>Products</h1>
+          <table>
+           <tr>
+              <td>
+               <img src="https://foodiewish.com/wp-content/uploads/2020/05/Masala-Dosa-Recipe.jpg" alt="Dosa">
+              </td>
+               <td><p>100</p></td>
+               <td class="btn_container">
+                  <div class="btn">
+                   <button id="pos_btn1">+</button>
+                  
+                  <p id="count_prod1">0</p>
+                  <button id="neg_btn">-</button>
+              </div>
+              </td>
+           </tr>
+           <tr>
+              <td>
+               <img src="https://www.awesomecuisine.com/wp-content/uploads/2020/03/poori-masala-kizhangu.jpg" alt="">
+              </td>
+               <td><p>200</p></td>
+               <td class="btn_container">
+                  <div class="btn">
+                   <button id="pos1_btn">+</button>
+                  <p id="count_prod2">0</p>
+                  
+                  <button id="neg1_btn">-</button></td>
+              </div>
+           </tr> 
+           <tr>
+              <td>
+               <img src="https://www.thespruceeats.com/thmb/aZen7PaA9G1dzSTVE6v36eH7RBE=/3752x2654/filters:fill(auto,1)/south-indian-food-548291937-588b4fcd5f9b5874ee174914.jpg" alt="Briyani">
+              </td>
+               <td><p>300</p></td>
+               <td class="btn_container">
+                  <div class="btn">
+                   <button id="pos2_btn">+</button>
+                  
+                  <p id="count_prod3">0</p>
+                  <button id="neg2_btn">-</button>
+                  </td>
+              </div>
+           </tr>
+          </table>
+        </div>
+
+
+
+        <div id="right_container">
+          <h1>Cart🛒</h1>
+          <table id="right_table">
+            <!-- <p id="no-product">☹ No Products added to the cart ☹</p> -->
+          </table>
+          <div class="total">
+                <h2 id="updateTotal" style="margin: 0px;">Total Rs:</h2>
+          </div>
+        </div>
+
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
